@@ -1,0 +1,19 @@
+.gotocart_wrapper {
+  border-radius: 50px;
+  border: 1px solid white;
+  outline: none !important;
+  background-color: transparent;
+  flex: 1;
+  height: 80%;
+  font-weight: bolder;
+  transform: translateX(150%);
+  transition: all ease-in-out 0.5s;
+}
+
+.show_gotocart {
+  transform: translateX(0);
+}
+
+.hide_cart {
+  transform: translateX(0);
+}

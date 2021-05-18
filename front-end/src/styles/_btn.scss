@@ -1,0 +1,21 @@
+.btn1 {
+  padding: 0.5rem;
+  font-weight: 400;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: $brand_color;
+  color: white;
+  font-size: 0.8rem;
+  width: 100%;
+
+  &:hover {
+    background-color: darken($color: $brand_color, $amount: 10);
+  }
+}
+
+@media screen and (min-width: $desktop_screen) {
+  .btn1 {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+}

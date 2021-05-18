@@ -1,0 +1,56 @@
+.na_card_wrapper {
+  width: 95%;
+  height: 400px;
+  padding-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: all ease-in-out 0.5s;
+}
+.card_img {
+  height: 120px;
+}
+.product_title {
+  font-size: 0.8rem;
+  color: black;
+  font-weight: "bolder";
+}
+
+.product_price {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+}
+.nacard_btn {
+  display: block;
+  width: 100%;
+  transition: opacity ease-in-out 0.5s;
+}
+
+@media screen and (min-width: $desktop_screen) {
+  .card_img {
+    height: 200px;
+  }
+  .na_card_wrapper {
+    width: 220px;
+    height: auto;
+  }
+  .product_price {
+    margin-bottom: 1rem !important;
+    margin-top: 0.2rem !important;
+  }
+  .nacard_btn {
+    display: flex;
+    opacity: 0;
+  }
+
+  .na_card_wrapper:hover {
+    transform: scale(1.1);
+  }
+
+  .na_card_wrapper:hover .nacard_btn {
+    opacity: 1;
+  }
+  .product_title {
+    font-size: 1.3rem;
+  }
+}

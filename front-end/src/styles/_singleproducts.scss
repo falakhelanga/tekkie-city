@@ -1,0 +1,30 @@
+.single_product_container {
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 3rem;
+}
+.single_product_det_col {
+  background-color: rgb(198, 200, 202);
+  overflow-y: hidden;
+}
+.sp_total {
+  background-color: rgb(198, 200, 202);
+}
+.single_product_image {
+  height: 345px;
+  width: 100%;
+}
+
+@media screen and (min-width: $desktop_screen) {
+  .single_product_container {
+    height: 100vh;
+    padding-bottom: 0px;
+  }
+  // .single_product_det_col {
+  //   padding-bottom: 3rem;
+  //   padding-top: 3rem;
+  // }
+  .single_product_image {
+    width: 300px;
+  }
+}

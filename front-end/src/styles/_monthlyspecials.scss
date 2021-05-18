@@ -1,0 +1,10 @@
+.mspecial_wrapper {
+  height: auto;
+  width: 100%;
+}
+
+@media screen and (min-width: $desktop_screen) {
+  .mspecial_wrapper {
+    height: 110vh;
+  }
+}
