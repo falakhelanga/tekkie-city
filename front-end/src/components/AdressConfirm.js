@@ -1,4 +1,5 @@
 import { Row, Col } from "react-bootstrap";
+import React from "react";
 import { useSelector } from "react-redux";
 const AdressConfirm = () => {
   const { adress } = useSelector((state) => state.adress);

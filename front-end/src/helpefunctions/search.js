@@ -9,7 +9,7 @@ const useSearch = (searchRef) => {
     if (searchRef.current.value.trim() === "") {
       history.push("/");
     } else {
-      history.push(`?page=${1}&search=${searchRef.current.value}`);
+      history.push(`/?page=${1}&search=${searchRef.current.value}`);
     }
   };
 

@@ -1,5 +1,5 @@
 import { Image } from "react-bootstrap";
-
+import React from "react";
 const ThumbNail = ({ image, imageChanger }) => (
   <div
     className="border rounded py-2 d-flex justify-content-center align-items-center mt-1"

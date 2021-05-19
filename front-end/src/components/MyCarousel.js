@@ -1,5 +1,6 @@
 import { Carousel } from "react-bootstrap";
 import Slide from "./Slide";
+import React from "react";
 
 const MyCarousel = ({ products }) => {
   return (

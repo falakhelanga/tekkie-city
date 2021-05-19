@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap";
 import Rate from "../components/Rate";
 import queryString from "query-string";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Formik } from "formik";
 import ControlledRate from "../components/ControledRate";
 import { useHistory, useParams } from "react-router-dom";

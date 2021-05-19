@@ -12,6 +12,7 @@ import { useRegister } from "../helpefunctions/user";
 import { Formik } from "formik";
 import useRedirect from "../helpefunctions/redirect";
 import { Link, useParams } from "react-router-dom";
+import React from "react";
 
 import {
   registerInitialValues,

@@ -1,3 +1,5 @@
+import React from "react";
+
 const Spinner = () => (
   <div
     className="lds-spinner d-flex w-100 justify-content-center align-items-center "
