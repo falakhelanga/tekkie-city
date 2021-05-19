@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import SearchIcon from "@material-ui/icons/Search";
 import { CSSTransition } from "react-transition-group";
 import useSearch from "../helpefunctions/search";
@@ -26,7 +27,7 @@ const Search = ({ openSearch, setOpenSearch }) => {
       }}
     >
       <div className="search_wrapper">
-        <div className="search_container mx-3">
+        <Container className="search_container">
           <form
             onSubmit={(e) => {
               searchHandler(e);
@@ -55,7 +56,7 @@ const Search = ({ openSearch, setOpenSearch }) => {
               CANCEL
             </button>
           </div>
-        </div>
+        </Container>
       </div>
     </CSSTransition>
   );
