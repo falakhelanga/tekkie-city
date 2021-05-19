@@ -62,11 +62,11 @@ const SingleProduct = ({ history }) => {
         {err}
       </MysnackBar>
       <Container
+        className="single_wrapper"
         fluid
         style={{
           height: "100%",
           paddingBottom: "6rem",
-          marginTop: "3rem",
         }}
       >
         <IconButton
