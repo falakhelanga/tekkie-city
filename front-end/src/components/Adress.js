@@ -32,7 +32,7 @@ const Adress = ({ activeStep, steps, handleBack, handleNext }) => {
           <Card className="p-4">
             <Form onSubmit={handleSubmit}>
               <Row>
-                <Col>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                   <Form.Group>
                     <Form.Label>Recipient name</Form.Label>
                     <Form.Control
@@ -52,7 +52,7 @@ const Adress = ({ activeStep, steps, handleBack, handleNext }) => {
                     </Form.Control.Feedback>
                   </Form.Group>
                 </Col>
-                <Col>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                   <Form.Group>
                     <Form.Label>Recipient number</Form.Label>
                     <Form.Control
@@ -74,7 +74,7 @@ const Adress = ({ activeStep, steps, handleBack, handleNext }) => {
                 </Col>
               </Row>
               <Row>
-                <Col>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                   <Form.Group>
                     <Form.Label>Street Adress</Form.Label>
                     <Form.Control
@@ -92,7 +92,7 @@ const Adress = ({ activeStep, steps, handleBack, handleNext }) => {
                     </Form.Control.Feedback>
                   </Form.Group>
                 </Col>
-                <Col>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                   <Form.Group>
                     <Form.Label>Complex number</Form.Label>
                     <Form.Control
@@ -112,7 +112,7 @@ const Adress = ({ activeStep, steps, handleBack, handleNext }) => {
                 </Col>
               </Row>
               <Row>
-                <Col>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                   <Form.Group>
                     <Form.Label>Suburb</Form.Label>
                     <Form.Control
@@ -130,7 +130,7 @@ const Adress = ({ activeStep, steps, handleBack, handleNext }) => {
                     </Form.Control.Feedback>
                   </Form.Group>
                 </Col>
-                <Col>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                   <Form.Group>
                     <Form.Label>City</Form.Label>
                     <Form.Control
@@ -150,7 +150,7 @@ const Adress = ({ activeStep, steps, handleBack, handleNext }) => {
                 </Col>
               </Row>
               <Row>
-                <Col>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                   <Form.Group>
                     <Form.Label>Province</Form.Label>
                     <Form.Control
@@ -168,7 +168,7 @@ const Adress = ({ activeStep, steps, handleBack, handleNext }) => {
                     </Form.Control.Feedback>
                   </Form.Group>
                 </Col>
-                <Col>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
                   <Form.Group>
                     <Form.Label>Postal Code</Form.Label>
                     <Form.Control

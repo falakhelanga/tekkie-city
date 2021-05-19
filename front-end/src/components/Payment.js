@@ -8,7 +8,9 @@ import usePayment from "../helpefunctions/payment";
 import { loadStripe } from "@stripe/stripe-js";
 import { Form, Button, Col, Row, Spinner, Alert } from "react-bootstrap";
 import OrderSummury from "./OrderSummury";
-const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
+const stripePromise = loadStripe(
+  "pk_test_51Htr6VAJEXhtSVS60dpVwer8C9fTmG35DcYcPIxij7kmKJrbcHyrMyooWYKovZ6o1TZw0IPZd6LbN7rt6wQ1SnoK00g9DgmZma"
+);
 const Payment = ({ activeStep, steps, handleBack, handleNext }) => {
   const { handleSubmit, error, loading } = usePayment();
 
@@ -80,6 +82,7 @@ const Payment = ({ activeStep, steps, handleBack, handleNext }) => {
 
                     {activeStep === 0 ? (
                       <Button
+                        disabled={error || loading}
                         type="submit"
                         style={{ border: "1px solid white", color: "white" }}
                         className="bg-dark"

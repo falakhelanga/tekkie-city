@@ -8,5 +8,6 @@ router
   .route("/")
   .post(auth, orderController.putOrder)
   .get(auth, orderController.getOrder);
+
 router.get("/:id", auth, orderController.getOneOrder);
 export default router;

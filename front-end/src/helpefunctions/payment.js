@@ -59,16 +59,15 @@ const usePayment = () => {
       };
       if (error) {
         throw error;
-      } else {
-        await axios.post("/api/orders/", order, config);
-        setLoading(false);
-        setError(false);
-        dispatch(emptyCart());
-        handleNext();
       }
+      await axios.post("/api/orders/", order, config);
+      setLoading(false);
+      setError(false);
+      dispatch(emptyCart());
+      handleNext();
     } catch (error) {
       setLoading(false);
-      setError(error);
+      setError(error.response?.data.message);
     }
   };
   return {
