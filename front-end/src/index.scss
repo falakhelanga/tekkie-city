@@ -83,11 +83,13 @@ body {
 }
 .main_wrapper {
   min-height: 80vh;
-  margin-top: 0rem;
+  margin-top: 5rem;
 }
-.single_wrapper {
-  margin-top: 3.3rem;
+
+.singl_wrapper {
+  margin-top: 0;
 }
+
 .product_link:hover {
   text-decoration: none;
 }
@@ -107,9 +109,6 @@ body {
   justify-content: center;
 }
 @media screen and (min-width: $desktop_screen) {
-  .single_wrapper {
-    margin-top: 0rem;
-  }
   .prod_col {
     max-height: 420px;
   }
