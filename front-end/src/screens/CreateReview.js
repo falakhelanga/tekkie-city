@@ -55,7 +55,7 @@ const CreateReview = ({ location }) => {
             <h3>Average Rating</h3>
             <h1>{rate}</h1>
             <p className="text-muted">out of 5 stars</p>
-            <Rate numRate={4} />
+            <Rate numRate={rate} />
           </Card>
         </Col>
         {/* input rating column */}

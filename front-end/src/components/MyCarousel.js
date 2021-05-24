@@ -4,7 +4,7 @@ import React from "react";
 
 const MyCarousel = ({ products }) => {
   return (
-    <Carousel pause="hover" fade controls={false} indicators={false}>
+    <Carousel pause="hover" controls={false}>
       {products.map((product) => (
         <Carousel.Item key={product.id}>
           <Slide product={product} />
